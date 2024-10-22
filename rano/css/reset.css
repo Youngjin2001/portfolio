@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* 초기화 */
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap'); */
+@font-face {font-family: 'Pretendard-Regular'; src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');}
+*{margin: 0; padding: 0; /* font-family: "Nanum Pen Script", cursive; */ font-family: 'Pretendard-Regular'; font-size: 21px; color: #3f3026;}
+ul, li{list-style: none;}
+a{text-decoration: none; color: inherit;}
