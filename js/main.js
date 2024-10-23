@@ -46,6 +46,8 @@ $(document).ready(function(){
             //     $("h2").css('display', 'none')
             // }
 
+            
+
         })
 
 
@@ -82,14 +84,11 @@ $(document).ready(function(){
             }
         })
 
-        var tl = gsap.timeline();
+        const tl = gsap.timeline();
         tl.from("h1",{x:300,y:-300,duration:2,opacity:0})
         tl.from(".y_string",{y:300,duration:2,opacity:0})
-        tl.from(".text",{x:300,duration:2,opacity:0})
-        tl.from(".nav",{x:-300,duration:2,opacity:0})
-        tl.from(".skill",{x:-300,duration:2,opacity:0})
-        tl.from(".txt_box",{x:300,duration:2,opacity:0})
-        tl.from(".button",{x:300,duration:2,opacity:0})
+
+        
 
     }
 
